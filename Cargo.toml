@@ -12,6 +12,10 @@ path = "src/server/main.rs"
 name = "client"
 path = "src/client/main.rs"
 
+[lib]
+name = "mylib"
+path = "src/models/teststruct.rs"
 
 [dependencies]
-byteorder = "1.4.3"
+serde = "1.0.147"
+postcard = "1.0.2"
